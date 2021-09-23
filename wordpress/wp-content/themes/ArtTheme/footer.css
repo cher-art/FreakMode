@@ -1,0 +1,61 @@
+/* Footer */
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+.footer_articles{
+  font-family: New York Small;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.footer_logo{
+  margin: 0 auto 25px auto;
+  display:block;
+}
+
+.footer_container{
+  margin-top: 100px;
+  margin-bottom: 65px;
+  padding: 0 60px;
+  text-align: center;
+}
+
+.links_box{
+  width: 210px;
+  display: flex;
+  margin: 30px auto;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.footer_link{
+  color: white;
+}
+
+.copyright{
+  font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer_container{
+    margin: 100px auto 65px auto;
+    width: 488px;
+    /* margin-top: 100px;
+    margin-bottom: 65px; */
+    text-align: center;
+  }
+}

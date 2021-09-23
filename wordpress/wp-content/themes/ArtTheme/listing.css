@@ -1,0 +1,114 @@
+
+/* Main Listing */
+
+.main-article{
+  border-bottom: 2px solid black;
+}
+.main-article_content-image{
+  margin-bottom: 30px;
+  width: 100%;
+}
+.main-article_title{
+  font-family: New York Extra Large;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;  
+}
+.main-article_subtitle{
+  font-family: SF Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+}
+
+.body_title{
+  font-family: New York Extra Large;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.main_list{
+  padding: 0;
+
+}
+.main_item{
+  margin-bottom: 40px;
+}
+.main_item-image{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main_item-description{
+  font-family: SF Pro Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .main_item{
+    min-width: 310px;
+    margin-bottom: 40px;
+  }
+  .main-article{
+    padding-bottom:34px ;
+  }
+  .main-article_content-image{
+    margin-top: 76px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .main-article_title{
+    font-family: New York Extra Large;
+    padding-bottom: 30px;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+     
+  }
+  .main-article_subtitle{
+    font-family: SF Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .body_title{
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .main_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+
+

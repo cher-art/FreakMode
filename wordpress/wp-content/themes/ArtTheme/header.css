@@ -1,0 +1,83 @@
+/* Header */ 
+
+.main_header{
+  max-height: 65px;
+  width: 100%;
+}
+.logo{
+  width: 220px;
+  height: 20px;
+  background-image: url(./image/NORDIC\ ROSE.svg);
+  background-repeat: no-repeat;
+  margin: 20px 20px ;
+}
+.burger_link{
+  display: block;
+  margin: 20px 20px;
+}
+.header_list{
+  display: none;
+}
+.header_block{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.header-wrapper{
+  height: 65px;
+  margin-bottom: 40px;
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .logo{
+    width: 420px;
+    height: 35px;
+    background-image: url(./image/NORDIC\ ROSE-big.svg);
+    background-repeat: no-repeat;
+    margin: 40px 60px ;
+  }
+  .header_list{
+    display: flex;
+    margin: auto 20px;
+  }
+  .header_item{
+    margin-right: 30px;
+    font-family: New York Small;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.12em;
+    text-align: center;
+
+  }
+  .burger_link{
+    display:none;
+  }
+  .header_link {
+    position: relative;
+    color: black; 
+    cursor: pointer;
+    line-height: 1; 
+    text-decoration: none; 
+  
+  }
+  .header_link:after {
+    display: block;
+    position: absolute;
+    left: 0; 
+    width: 0;
+    height: 2px; 
+    background-color: black; 
+    content: "";
+    transition: width 0.3s ease-out; 
+  }
+  
+  .header_link:hover:after,
+  .header_link:focus:after {
+    width: 100%; 
+  }
+}
